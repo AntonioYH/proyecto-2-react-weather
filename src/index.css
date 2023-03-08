@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background-color: #51b4e8;
+}
+
+.bodyDark {
+  background-color: #2f2958;
+}
+
+#round {
+  transition: 1500ms;
+  -webkit-transition: 1500ms;
+  -moz-transition: 1500ms;
+  -ms-transition: 1500ms;
+  -o-transition: 1500ms;
+}
+
+.roundDark {
+  left: 50%;
+  background-color: #85bcf1;
+  transition: 1500ms;
+  -webkit-transition: 1500ms;
+  -moz-transition: 1500ms;
+  -ms-transition: 1500ms;
+  -o-transition: 1500ms;
+}
